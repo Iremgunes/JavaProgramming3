@@ -1,0 +1,28 @@
+
+exp 1 : we will create a method thatnwill return count of even numbers and parameter is an int array
+
+exp 2: we will create a method that will return the difference between max and min number of an int array
+
+exp 3 : this example was implemented to show that we can call a method from other methods
+
+exp4 : can ı use a return pf a method inside another method as of its parameter
+
+
+
+wrapper class :
+int, double, char, short.... primitive
+
+Integer x = new Integer(9); value is just 9 for java its makes difference
+
+X is called object reference
+9 is the value of that object
+
+since x is object reference i can reach methods of these wrapper classes
+
+
+
+ArrayList = can ı put primitive ins,de arraylist ? NO NO NO
+
+
+
+
