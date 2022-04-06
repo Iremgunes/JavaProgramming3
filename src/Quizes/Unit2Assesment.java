@@ -124,5 +124,9 @@ public class Unit2Assesment {
          newWord+= cümle.charAt(i);
         }
         System.out.println(newWord);
+
+      String str5 = "game is good";
+      int i = str5.indexOf("irem");
+        System.out.println(i);
     }
 }
