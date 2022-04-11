@@ -30,11 +30,15 @@ public class Car {
     }
 
     public void start(){
-        System.out.println(brand + " " + model + " started in" + year);
+        System.out.println(brand + " " + model + " is starting" );
     }
     public  void drive(){
         System.out.println(brand + " " + model + " is driving");
     }
 
+    /*
+    public void fly(){}
+    fly method is not common all the cars
+     */
 
 }
