@@ -15,11 +15,14 @@ public class Square extends Shape {
         }
         this.side = side;
     }
-
-    public Square(String name) {
-        super("Square);
+    public Square(String name, double side) {
+        super(name);
         setSide(side);
+
     }
+
+
+
 
 
 
