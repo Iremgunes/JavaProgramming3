@@ -11,10 +11,13 @@ public class Rectangle extends Shape{
         this.s2 = s2;
     }
 
+
     @Override
     public String toString() {
+        String name;
+
         return "Rectangle{" +
-                "name= " + name +
+                "name= " + //name +
                 "s1=" + s1 +
                 ", s2=" + s2 +
                 ", area =" + area() +

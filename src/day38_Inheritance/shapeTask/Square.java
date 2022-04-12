@@ -2,7 +2,15 @@ package day38_Inheritance.shapeTask;
 
 public class Square extends Shape{
 
-    public double s;
+    private double s;
+
+    public double getS() {
+        return s;
+    }
+
+    public void setS(double s) {
+        this.s = s;
+    }
 
     public Square(String name, double s) {
         super(name);
