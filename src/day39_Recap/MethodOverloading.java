@@ -2,7 +2,7 @@ package day39_Recap;
 
 public class MethodOverloading {
 
-    private void void method1(){
+    private void method1(){
 
     }
 
