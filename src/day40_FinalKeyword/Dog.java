@@ -1,6 +1,6 @@
 package day40_FinalKeyword;
 
-public class Dog extends Animal{
+public final class Dog extends Animal{
 
     public Dog(String name, String breed, char gender, String color, String size, int age) {
         super(name, breed, gender, color, size, age);
@@ -11,7 +11,7 @@ public class Dog extends Animal{
         System.out.println("dog is eateing dog's food");
     }
 
-    public void drink1(){
+    public final void drink1(){
         System.out.println(getName() + " is drink the beer");
     }
 }

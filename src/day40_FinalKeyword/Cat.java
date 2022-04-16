@@ -1,0 +1,17 @@
+package day40_FinalKeyword;
+
+public class Cat extends Animal {
+
+    public Cat(String name, String breed, char gender, String color, String size, int age) {
+        super(name, breed, gender, color, size, age);
+    }
+
+    @Override
+    public void eat() {
+        System.out.println(getName() + " is eating food");
+    }
+
+    public final void drink2(){
+        System.out.println("cat is drinking milk");
+    }
+}
