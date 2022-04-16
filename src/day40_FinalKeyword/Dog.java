@@ -11,7 +11,7 @@ public final class Dog extends Animal{
         System.out.println("dog is eateing dog's food");
     }
 
-    public final void drink1(){
+    public void drink1(){
         System.out.println(getName() + " is drink the beer");
     }
 }
