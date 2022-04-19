@@ -23,6 +23,15 @@ public class MultiCatchBlocks {
 
         System.out.println("tahts all");
 
+        System.out.println("-----------------");
+
+        try{
+            System.out.println("java".charAt(-1));
+        }catch (RuntimeException e){
+            //e.printStackTrace();
+            System.out.println( e.getMessage());
+        }
+
 
 
 
