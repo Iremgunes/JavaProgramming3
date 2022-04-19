@@ -1,5 +1,8 @@
 package day41_Exceptions;
 
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+
 public class TryCatchBlocks {
     public static void main(String[] args) {
 
@@ -68,6 +71,14 @@ public class TryCatchBlocks {
 
         System.out.println("cydeo");
         System.out.println("------------------");
+
+        try {
+
+            FileInputStream file = new FileInputStream("File path");
+        } catch(FileNotFoundException e){
+            e.printStackTrace();
+        }
+
 
 
 
