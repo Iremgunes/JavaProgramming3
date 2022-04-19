@@ -43,10 +43,18 @@ public class TryCatchBlocks {
         try {
             System.out.println("cydeo".substring(2, 0));
         } catch(StringIndexOutOfBoundsException e){
-           // e.printStackTrace();
+          //  e.printStackTrace();
             System.out.println(e.getMessage());
+
         }
         System.out.println("test3 completed");
+
+
+        System.out.println("--------------------------");
+
+        System.out.println("test4 started");
+
+
 
     }
 }
