@@ -10,11 +10,9 @@ public class MorningWorkOut {
 
             System.out.print("\rpush up " + i);
 
-            try {
-                Thread.sleep(100);
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
+            sleep(2.5);
+
+
         }
 
         System.out.println();
