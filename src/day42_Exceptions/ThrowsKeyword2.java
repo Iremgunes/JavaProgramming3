@@ -5,9 +5,9 @@ public class ThrowsKeyword2 {
 
         System.out.println("test started");
 
-        System.out.println(8 / 0);
+      //  System.out.println(8 / 0);
 
-        /*
+
         try {
             System.out.println(8 / 0);
         }catch(ArithmeticException e) {
@@ -16,7 +16,7 @@ public class ThrowsKeyword2 {
             e.printStackTrace();
 
         }
-        */
+
         System.out.println("test completed");
 
     }
