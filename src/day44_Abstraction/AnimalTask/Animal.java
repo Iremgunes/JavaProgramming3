@@ -10,8 +10,13 @@ public abstract class Animal {
     private final String color;
 
     public final static boolean canBreath;
+
     static {
         canBreath = true;
+        if(canBreath==false){
+            throw new RuntimeException("invalid");
+        }
+
     }
 
     public Animal(String name, String breed, char gender, int age, String size, String color) {
@@ -67,13 +72,12 @@ public abstract class Animal {
 
     public abstract void eat();
 
-    public void drink(){
-        System.out.println(name + " drinks water");
+    public final void drink(){
+        System.out.println(name+ " drinks water");
     }
 
-    @Override
     public String toString() {
-        return "Animal{" +
+        return getClass().getSimpleName() + "{" +
                 "name='" + name + '\'' +
                 ", breed='" + breed + '\'' +
                 ", gender=" + gender +
