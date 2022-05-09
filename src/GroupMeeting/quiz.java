@@ -15,12 +15,13 @@ public class quiz {
        str1 =  str.replace("C", "D");
         System.out.println(str1);
 
-        String ta = "A";
+        String ta = "irem";
+        ta = ta.replace('i', 'r');
+        System.out.println(ta);
+        String myStr = "Hello";
+        System.out.println(myStr.replace('l', 'p'));
 
-        ta.replace("A", "D");
-        System.out.println(ta);
-        //ta = ta + tb;
-        System.out.println(ta);
+
 
         String s1 ="abc";
         String s2 ="abc";
