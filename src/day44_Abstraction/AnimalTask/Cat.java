@@ -9,5 +9,10 @@ public final class Cat extends Animal{
     @Override
     public void eat() {
         System.out.println(getName() + " eats biryani");
-    }
+     }
+
+     public void meow(){
+         System.out.println(getName() + " is meowing");
+     }
+
 }
