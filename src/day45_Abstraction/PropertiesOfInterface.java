@@ -55,5 +55,6 @@ class Test implements PropertiesOfInterface{
         new Test().method4();
 
 
+
     }
 }

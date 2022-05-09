@@ -15,14 +15,11 @@ public class quiz {
        str1 =  str.replace("C", "D");
         System.out.println(str1);
 
-        String ta = "A ";
-        ta = ta.concat("B ");
-        String tb = "C ";
-        ta = ta + tb;
+        String ta = "A";
+
+        ta.replace("A", "D");
         System.out.println(ta);
-        ta.replace(" ", " D");
-        System.out.println(ta);
-        ta = ta + tb;
+        //ta = ta + tb;
         System.out.println(ta);
 
         String s1 ="abc";
