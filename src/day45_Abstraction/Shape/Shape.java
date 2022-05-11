@@ -1,5 +1,7 @@
 package day45_Abstraction.Shape;
 
+
+
 public abstract class Shape {
 
     private final String name;

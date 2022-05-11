@@ -1,5 +1,23 @@
 package day45_Abstraction.Shape;
 
+interface XX{
+
+}
+
+
+interface YY{
+
+}
+
+abstract class BB{
+
+}
+
+
+abstract class A{
+
+}
+
 public class Circle extends Shape{
 
     private double radius;
