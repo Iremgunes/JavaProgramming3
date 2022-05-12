@@ -13,7 +13,7 @@ public abstract class Animal {
 
     static {
         canBreath = true;
-        if(canBreath==false){
+        if (canBreath == false) {
             throw new RuntimeException("invalid");
         }
 
@@ -22,7 +22,7 @@ public abstract class Animal {
     public Animal(String name, String breed, char gender, int age, String size, String color) {
         setName(name);
         this.breed = breed;
-        if(!(gender== 'M' || gender == 'F')){
+        if (!(gender == 'M' || gender == 'F')) {
             throw new RuntimeException("invalid gender: " + gender);
         }
         this.gender = gender;
@@ -36,7 +36,7 @@ public abstract class Animal {
     }
 
     public void setName(String name) {
-        if(name.isEmpty()){
+        if (name.isEmpty()) {
             throw new RuntimeException("invalid name");
         }
         this.name = name;
@@ -72,8 +72,8 @@ public abstract class Animal {
 
     public abstract void eat();
 
-    public final void drink(){
-        System.out.println(name+ " drinks water");
+    public final void drink() {
+        System.out.println(name + " drinks water");
     }
 
     public String toString() {
@@ -86,4 +86,7 @@ public abstract class Animal {
                 ", color='" + color + '\'' +
                 '}';
     }
+
 }
+
+
