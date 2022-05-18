@@ -66,10 +66,28 @@ public class SetPractice2 {
 
         //char[] arrayStr = str.toCharArray();
 
-
        Set<String> linkedHashSet2 =  new LinkedHashSet<>(Arrays.asList(str.split("")));
 
         System.out.println("linkedHashSet2 = " + linkedHashSet2);
+
+        System.out.println("----------------------");
+
+        Set<String> names = new LinkedHashSet<>();
+        names.addAll(Arrays.asList("Ahmet", "Ahmet", "John", "James", "Breanna", "Shay", "Ahmet"));
+        System.out.println("names = " + names);
+
+        int countAhmetinArray = Collections.frequency(Arrays.asList("Ahmet", "Ahmet", "John", "James", "Breanna", "Shay", "Ahmet"), "Ahmet");
+        System.out.println("countAhmetinArray = " + countAhmetinArray);
+
+        System.out.println(names.toArray(new String[0]) [2]);
+
+        int countAhmetinLinkedSet = Collections.frequency(names, "Ahmet");
+        System.out.println("countAhmetinLinkedSet = " + countAhmetinLinkedSet);
+
+
+
+
+
 
 
 
