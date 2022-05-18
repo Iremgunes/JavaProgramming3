@@ -20,6 +20,7 @@ public class SetInterfacePractice {
         list2.add(100);
         list2.add(2);
         list2.add(2);
+
         System.out.println("linked List is = " + list2);
 
         Set<Integer> set1 = new HashSet<>();
@@ -41,6 +42,8 @@ public class SetInterfacePractice {
         linkedHashSet.add(100);
         linkedHashSet.add(2);
         linkedHashSet.add(2);
+        linkedHashSet.add(null);
+
 
         System.out.println("LinkedHasSert is = " + linkedHashSet);
 
@@ -50,9 +53,21 @@ public class SetInterfacePractice {
         treeSet.add(100);
         treeSet.add(2);
         treeSet.add(2);
+     // treeSet.add(null); //it doesnt accept null NullPointerException
+        treeSet.add(1);
 
         System.out.println("Tree Set is = " + treeSet);
 
+        System.out.println("----------------------------------");
+
+        //String str = null;
+
+       // System.out.println(str.charAt(0));
+        //NullPointerException
+
+      //  String str1 = "";
+     //   System.out.println(str1.charAt(0));
+//StringIndexOutOfBoundsException
 
 
 
