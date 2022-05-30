@@ -9,7 +9,7 @@ public class Initial {
 
         Scanner scan = new Scanner(System.in);
 
-        System.out.println("enter your firdt name");
+        System.out.println("enter your first name");
         String firstName = scan.next();
 
         System.out.println("enter your last name");

@@ -1,0 +1,60 @@
+
+STRİNG
+- we use it for represents of characters.
+- it comes from java.lang package
+- string is immutable. if we create an object once, it could not be changed or modified.
+
+- create 2 way
+1- string literal
+
+String a = "poll";
+String b = "poll";
+
+when we create a, there is a "poll" object in string poll in java heap.
+and we dont create new object for b,
+a and b same object ind string poll. there is one object
+
+2- by new keyword
+String a2 = "java";
+String b2 = new String("java");
+
+a2 is created in java heap in String poll and b2 is created in java heap.
+there are 2 object
+
+- every character in string has index number.
+index number starts from 0
+
+- some methods:
+1. charAt(index)= returns the character at the given index.
+String name = "İrem";
+name.charAt(1) = 'r';
+
+2. length()= returns the total number of characters(it starts from 1)
+name.length() = 4;
+
+3. toLowerCase() = returns the new string which all chars are lower
+   toUpperCase() = returns the new string which all chars are upper
+
+4. equals()= check if two string have same text, returns boolean
+
+5. trim() = returns new string without including the white spaces(unused spaces)
+
+6. indexOf(str)= returns the index number of first occured character. returns int
+
+7. lastIndexOf(str) = returns the index number of last occured character. returns int
+
+8. replace(oldValue, newValue) = returns new string by replacing all old values with new values
+
+9. replaceFirst(oldValue, newValue) = returns new string by replacing the FIRST MATHCING WITH given old value with new value.
+
+10. substring(beginingIndex, endingIndex) = creates substring starting from the given beginning index till the given index(endingIndex is excluded)
+
+11. substring(beginingIndex) =  creates substring starting from the given beginning index to end of the string
+
+12.repeat() =
+
+13. split() =
+
+
+
+

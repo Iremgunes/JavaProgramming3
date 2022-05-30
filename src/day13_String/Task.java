@@ -21,7 +21,7 @@ public class Task {
         int totalChars2 = s2.length();
 
         if (totalChars1 > totalChars2) {
-            System.out.println(s1 + " cimlesi is longer than " + s2);
+            System.out.println(s1 + " is longer than " + s2);
         } else {
             System.out.println(s2 + " is longer than " + s1);
         }
