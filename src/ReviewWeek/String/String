@@ -12,7 +12,7 @@ String b = "poll";
 
 when we create a, there is a "poll" object in string poll in java heap.
 and we dont create new object for b,
-a and b same object ind string poll. there is one object
+a and b same object in string poll. there is one object
 
 2- by new keyword
 String a2 = "java";

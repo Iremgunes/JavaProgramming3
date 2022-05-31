@@ -1,6 +1,9 @@
 package ReviewWeek.String;
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
 
 public class ExamplesFromMuhtar {
     public static void main(String[] args) {
@@ -40,6 +43,20 @@ public class ExamplesFromMuhtar {
         String word = "Cybertek School";
         String reverse = "";
 
+        /*
+        String[] array1 = word.split("");
+        String[] array2 = word.split(" ");
+
+        System.out.println(Arrays.toString(array1));
+        System.out.println(Arrays.toString(array1));
+
+
+        System.out.println(Arrays.toString(array2));
+
+         */
+
+
+
         for (int i = word.length() -1; i >= 0 ; i--) {
             reverse += word.charAt(i);
         }
@@ -57,8 +74,8 @@ public class ExamplesFromMuhtar {
 
         //anagram
 
-        String word1 = "Jane Eyre";
-        String word2 = "Jean yEre";
+        String word1 = "earth";
+        String word2 = "heart";
 
         char[] ch1 = word1.toCharArray();
         char[] ch2 = word2.toCharArray();
@@ -70,22 +87,30 @@ public class ExamplesFromMuhtar {
 
         System.out.println("-----------------------------");
 
+        //reemove duplicates 2 hali var içeren ve içermeyen şeklinde
+
         String str = "aaabbbcccd";
 
-        String result = "";
+        String result ="" ;
 
         for (int i = 0; i < str.length(); i++) {
+
             char each = str.charAt(i);
 
-            if(!result.contains("" + each)){
-                result += str.charAt(i);
+            if(result.contains("" + each)){
+                continue;
+
             }
+            result += str.charAt(i);
+
         }
         System.out.println("str = " + str);
 
-        System.out.println("result = " + result);
+         System.out.println("result = " + result);
 
         System.out.println("--------------------");
+
+        //frequency of element
 
         String str3 = "AAABBBCDDDDDDD";
 
@@ -104,7 +129,44 @@ public class ExamplesFromMuhtar {
         }
         System.out.println("frequency = " + frequency);
 
+        //2. solution
+
+        String[] arr = str3.split("");
+        List<String> list = new ArrayList<>(Arrays.asList(arr));
+        int fre = Collections.frequency(list, "D");
+        System.out.println("fre = " + fre);
+
         System.out.println("-----------------------------");
+
+        // frequency of word
+        String word3 = "JavaJavaJava";
+
+        int frequency2 = 0;
+
+        for (int i = 0; i <=  word3.length()-4; i++) {
+
+            String eachSub = word3.substring(i, (i+4));
+
+            if(eachSub.equals("Java")){
+                frequency2++;
+            }
+        }
+
+        for (int i = 0; i < word3.length()-"java".length() ; i++) {
+            String subNew = word3.substring(i, (i+"java".length()));
+
+        }
+
+        System.out.println("frequency2 : " + frequency2);
+
+        System.out.println("-----------------------------------");
+
+        String str22 = "abcde";
+        String[] array = str22.split("");
+
+        System.out.println(Arrays.toString(array));
+
+
 
     }
 }
