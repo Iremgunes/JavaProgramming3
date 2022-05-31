@@ -28,7 +28,7 @@ a series of numbers in which each number ( Fibonacci number ) is the sum of the 
         int num1 = 0, num2 = 1;
         int sum;
 
-        String series = ""+ num1+"" + num2 +"";
+        String series = ""+ num1+" " + num2 +" ";
 
         for (int i = 2; i <= 6 ; i++) {
             sum = num1 + num2;
